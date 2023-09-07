@@ -21,7 +21,7 @@ export default defineConfig(({ mode }) => {
     server: {
       port: 3000,
       fs: { strict: false },
-      host:false,
+      host:true,
     },
 
     optimizeDeps: {
